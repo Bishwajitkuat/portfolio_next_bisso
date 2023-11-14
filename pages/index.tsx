@@ -1,13 +1,14 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import Navbar from "@/components/navbar/navbar";
 import Head from "next/head";
+import Navbar from "@/components/navbar/navbar";
+import HomePage from "@/components/home-page/home-page";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main>
+    <>
       <Head>
         <title>Bisso | Full-Stuck Developer</title>
         <meta
@@ -16,7 +17,11 @@ export default function Home() {
         />
         <link rel="icon" href="" />
       </Head>
-      <Navbar />
-    </main>
+      <main className="grid">
+        <Navbar />
+
+        <HomePage />
+      </main>
+    </>
   );
 }
