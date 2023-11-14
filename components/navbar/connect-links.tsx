@@ -14,22 +14,22 @@ export default function ConnectLinks({
     <ul className={ulClass}>
       <li className={liClass}>
         <Link href="https://www.linkedin.com/in/bishwajitkuat/" target="_blank">
-          <FaLinkedinIn />
+          <FaLinkedinIn color="blue" />
         </Link>
       </li>
       <li className={liClass}>
         <Link href="https://github.com/Bishwajitkuat" target="_blank">
-          <FaGithub />
+          <FaGithub color="blue" />
         </Link>
       </li>
       <li className={liClass}>
         <Link href="mailto:bishwajitkuat@gmail.com">
-          <AiOutlineMail />
+          <AiOutlineMail color="blue" />
         </Link>
       </li>
       <li className={liClass}>
         <Link href="https://www.facebook.com/Bishwajitkuat" target="_blank">
-          <FaFacebookF />
+          <FaFacebookF color="blue" />
         </Link>
       </li>
     </ul>
