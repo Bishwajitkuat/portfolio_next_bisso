@@ -11,7 +11,7 @@ export default function Navbar() {
     setNav(!nav);
   };
   return (
-    <div className="fixed w-full h-20 shadow-xl z-[100]">
+    <div className="fixed bg-gray-100 top-0 w-full h-20 shadow-xl z-0">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
           <h2 className="text-5xl">BD</h2>
@@ -59,7 +59,7 @@ export default function Navbar() {
               </p>
             </div>
           </div>
-          <div className="py-4 flex-col">
+          <div onClick={navHandler} className="py-4 flex-col">
             <MenuLinks ulClass="" liClass="py-4 flex-cols" />
             <div className="pt-40">
               <p className="uppercase tracking-widest text-[#5651e5]">
