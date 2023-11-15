@@ -1,4 +1,10 @@
-export const programmingLanguages = [
+import { SkillCardPropsType } from "../components/skills-page/skill-card";
+
+export interface SkillsType extends SkillCardPropsType {
+  id: number;
+}
+
+export const programmingLanguages: SkillsType[] = [
   {
     id: 0,
     imgFileName: "javaScript.png",
@@ -33,7 +39,7 @@ export const programmingLanguages = [
   },
 ];
 
-export const fullStackTechs = [
+export const fullStackTechs: SkillsType[] = [
   {
     id: 0,
     imgFileName: "nextjs.png",
@@ -60,7 +66,7 @@ export const fullStackTechs = [
   },
 ];
 
-export const frontEndTechs = [
+export const frontEndTechs: SkillsType[] = [
   {
     id: 0,
     imgFileName: "react.png",
@@ -104,7 +110,7 @@ export const frontEndTechs = [
   },
 ];
 
-export const backEndTechs = [
+export const backEndTechs: SkillsType[] = [
   {
     id: 0,
     imgFileName: "node.png",
@@ -139,7 +145,7 @@ export const backEndTechs = [
   },
 ];
 
-export const devOpsTechs = [
+export const devOpsTechs: SkillsType[] = [
   {
     id: 1,
     imgFileName: "aws.png",

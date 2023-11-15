@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { Progress } from "@material-tailwind/react";
 import Link from "next/link";
-interface SkillCardPropsType {
+export interface SkillCardPropsType {
   imgFileName: string;
   imgAlt: string;
   skillName: string;
