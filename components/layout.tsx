@@ -13,10 +13,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         />
         <link rel="icon" href="" />
       </Head>
-      <main className="grid-1">
-        <Navbar />
-        {children}
-      </main>
+      <Navbar />
+      <main className="grid-1 pt-20">{children}</main>
     </>
   );
 }
