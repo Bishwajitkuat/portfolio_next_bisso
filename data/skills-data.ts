@@ -7,7 +7,7 @@ export interface SkillsType extends SkillCardPropsType {
 export const programmingLanguages: SkillsType[] = [
   {
     id: 0,
-    imgFileName: "javaScript.png",
+    imgFileName: "javaScript.svg",
     imgAlt: "javaScript logo",
     skillName: "JavaScript",
     skillLevel: 75,
@@ -15,7 +15,7 @@ export const programmingLanguages: SkillsType[] = [
   },
   {
     id: 1,
-    imgFileName: "typescript.png",
+    imgFileName: "typescript.svg",
     imgAlt: "TavaScript logo",
     skillName: "TypeScript",
     skillLevel: 50,
@@ -23,7 +23,7 @@ export const programmingLanguages: SkillsType[] = [
   },
   {
     id: 2,
-    imgFileName: "php.png",
+    imgFileName: "php.svg",
     imgAlt: "php logo",
     skillName: "PHP",
     skillLevel: 65,
@@ -31,7 +31,7 @@ export const programmingLanguages: SkillsType[] = [
   },
   {
     id: 3,
-    imgFileName: "python.png",
+    imgFileName: "python.svg",
     imgAlt: "python logo",
     skillName: "Python",
     skillLevel: 40,
@@ -42,7 +42,7 @@ export const programmingLanguages: SkillsType[] = [
 export const fullStackTechs: SkillsType[] = [
   {
     id: 0,
-    imgFileName: "nextjs.png",
+    imgFileName: "nextjs.svg",
     imgAlt: "nextjs logo",
     skillName: "Nextjs",
     skillLevel: 65,
@@ -50,7 +50,7 @@ export const fullStackTechs: SkillsType[] = [
   },
   {
     id: 1,
-    imgFileName: "drupal.png",
+    imgFileName: "drupal.svg",
     imgAlt: "drupal logo",
     skillName: "Drupal",
     skillLevel: 65,
@@ -64,20 +64,36 @@ export const fullStackTechs: SkillsType[] = [
     skillLevel: 50,
     link: "https://symfony.com/",
   },
+  {
+    id: 3,
+    imgFileName: "zod.svg",
+    imgAlt: "zod logo",
+    skillName: "Zod",
+    skillLevel: 50,
+    link: "https://zod.dev/",
+  },
 ];
 
 export const frontEndTechs: SkillsType[] = [
   {
     id: 0,
-    imgFileName: "react.png",
+    imgFileName: "react.svg",
     imgAlt: "react logo",
     skillName: "React",
     skillLevel: 75,
     link: "https://react.dev/",
   },
   {
+    id: 5,
+    imgFileName: "redux.svg",
+    imgAlt: "redux logo",
+    skillName: "React Redux",
+    skillLevel: 65,
+    link: "https://react-redux.js.org/",
+  },
+  {
     id: 1,
-    imgFileName: "html.png",
+    imgFileName: "html.svg",
     imgAlt: "html logo",
     skillName: "HTML",
     skillLevel: 85,
@@ -85,7 +101,7 @@ export const frontEndTechs: SkillsType[] = [
   },
   {
     id: 2,
-    imgFileName: "css.png",
+    imgFileName: "css.svg",
     imgAlt: "css logo",
     skillName: "CSS",
     skillLevel: 80,
@@ -93,7 +109,7 @@ export const frontEndTechs: SkillsType[] = [
   },
   {
     id: 3,
-    imgFileName: "bootstrap.png",
+    imgFileName: "bootstrap.svg",
     imgAlt: "bootstrap logo",
     skillName: "Bootstrap",
     skillLevel: 75,
@@ -101,8 +117,8 @@ export const frontEndTechs: SkillsType[] = [
   },
 
   {
-    id: 11,
-    imgFileName: "tailwind.png",
+    id: 4,
+    imgFileName: "tailwind.svg",
     imgAlt: "tailwind logo",
     skillName: "Tailwind",
     skillLevel: 75,
@@ -113,7 +129,7 @@ export const frontEndTechs: SkillsType[] = [
 export const backEndTechs: SkillsType[] = [
   {
     id: 0,
-    imgFileName: "node.png",
+    imgFileName: "node.svg",
     imgAlt: "node logo",
     skillName: "node",
     skillLevel: 40,
@@ -121,7 +137,7 @@ export const backEndTechs: SkillsType[] = [
   },
   {
     id: 1,
-    imgFileName: "firebase.png",
+    imgFileName: "firebase.svg",
     imgAlt: "firebase logo",
     skillName: "Firebase",
     skillLevel: 40,
@@ -129,7 +145,7 @@ export const backEndTechs: SkillsType[] = [
   },
   {
     id: 2,
-    imgFileName: "mysql.png",
+    imgFileName: "mysql.svg",
     imgAlt: "mysql logo",
     skillName: "MySQL",
     skillLevel: 75,
@@ -147,8 +163,16 @@ export const backEndTechs: SkillsType[] = [
 
 export const devOpsTechs: SkillsType[] = [
   {
+    id: 0,
+    imgFileName: "docker.svg",
+    imgAlt: "docker logo",
+    skillName: "Docker",
+    skillLevel: 45,
+    link: "https://www.docker.com/",
+  },
+  {
     id: 1,
-    imgFileName: "aws.png",
+    imgFileName: "aws.svg",
     imgAlt: "aws logo",
     skillName: "Aws",
     skillLevel: 30,
@@ -156,11 +180,19 @@ export const devOpsTechs: SkillsType[] = [
   },
 
   {
-    id: 5,
-    imgFileName: "github.png",
+    id: 2,
+    imgFileName: "github.svg",
     imgAlt: "github logo",
     skillName: "Github",
     skillLevel: 75,
     link: "https://github.com/",
+  },
+  {
+    id: 3,
+    imgFileName: "lando.svg",
+    imgAlt: "lando logo",
+    skillName: "Lando",
+    skillLevel: 40,
+    link: "https://lando.dev/",
   },
 ];
