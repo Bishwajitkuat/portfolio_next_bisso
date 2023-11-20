@@ -1,40 +1,104 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function AboutPage() {
   return (
-    <div className="w-full  px-8 flex py-12 md:py-24">
-      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 items-center gap-8">
-        <div className="md:col-span-2">
-          <h3 className=" uppercase text-xl tracking-widest text-[#5651e5]">
-            About
-          </h3>
-          {/* <h3 className="py-4 text-gray-600">Who I AM</h3> */}
-          <p className="py-2 text-gray-600">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim a
-            harum aut maiores voluptatem aperiam inventore esse possimus nostrum
-            fuga perferendis quaerat totam nobis ab dolores corrupti rem error
-            vitae quod, reiciendis voluptatibus tempora quidem aliquam porro!
-            Commodi quis atque optio nobis libero incidunt eaque, officiis
-            quaerat deleniti error cum esse asperiores aperiam labore illo
-            architecto, nisi doloribus, obcaecati iure soluta magni doloremque.
-            Ipsa facilis in asperiores! Aliquam voluptatem consectetur pariatur
-            recusandae sapiente necessitatibus, blanditiis, omnis perferendis,
-            reprehenderit quos facilis! Illo, sit quis, pariatur maiores ipsa
-            fugiat ipsum voluptatum cupiditate quo reiciendis quisquam! Vel a at
-            eligendi quas placeat excepturi.
-          </p>
-        </div>
+    <div className="w-full min-h-screen flex justify-center pt-8 md:pt-12">
+      <div className="px-16">
+        <h3 className=" uppercase pb-20 text-center text-[3rem] tracking-widest text-[#5651e5]">
+          About
+        </h3>
+        <div className="max-w-[1240px]  m-auto grid md:grid-cols-3 justify-center gap-8">
+          <div className="md:col-span-2">
+            <div className=" md:px-16 text-left leading-loose text-gray-800">
+              <h2>Story of becoming a web developer</h2>
+              <p className="py-4 pt-4">
+                I was a <span className="">Plant Biotechnologies</span> and
+                completed my Masters of Science Degree from University of
+                Helsinki 2020. However I have strong interest in programming,
+                problem solving, research and data analysis. During my stydies
+                in University of Helsinki, I took some courses which required
+                some programming knowledge. I have struggled a lot during these
+                courses because of lack of programming skill. Despite my
+                strugle, I become more interested toward programming and later
+                completed Introduction to Programming from{" "}
+                <Link
+                  className="text-[#5651e5]"
+                  href="https://www.mooc.fi/en/"
+                  target="_blanck"
+                >
+                  Mooc.fi
+                </Link>
+              </p>
+              <p className="py-4">
+                Even though, I have strong motivation, I did not get enough
+                opportunitie to learn it and change my career. Finally, at 2022
+                I have descided to change my career to web development and
+                started learning programming. Initially, I starts with some{" "}
+                <Link
+                  className="text-[#6551e5]"
+                  href="https://www.udemy.com/user/bishwajit-das-24/"
+                  target="_blanck"
+                >
+                  Udemy courses
+                </Link>
+                .
+              </p>
+              <p className="py-4">
+                Over time, I have realized that I really like programming,
+                problem solving and enjoy building web applications.
+              </p>
 
-        <Image
-          className="w-full h-auto rounded-lg shadow-xl shadow-gray-400 hover:scale-105 ease-in duration-500"
-          src="/profile_img.jpg"
-          width="0"
-          height="0"
-          sizes="100vw"
-          alt="profile picture"
-          priority={true}
-        />
+              <p className="py-4">
+                At the begining of 2023 I have admitted into{" "}
+                <Link
+                  className="text-[#5651e5]"
+                  href="https://en.bc.fi/qualifications/full-stack-web-developer-program/"
+                  target="_blanck"
+                >
+                  Full Stack Web Developer program
+                </Link>{" "}
+                at{" "}
+                <Link
+                  className="text-[#5651e5]"
+                  href="https://www.bc.fi/"
+                  target="_blanck"
+                >
+                  Business College Helsinki.
+                </Link>{" "}
+                This excellent programme taught me some modern web development
+                techenologies and gave enough projects to sharpen my skills . I
+                am at the end of my study and I am already feel confident that I
+                would be a better web developer.
+              </p>
+              <p>
+                Currently, I am looking for a job or internship place to
+                solidify and enhance my learnings and skills.
+              </p>
+            </div>
+          </div>
+
+          <Image
+            className="w-full h-auto rounded-full shadow-xl shadow-gray-400 hover:scale-105 ease-in duration-500"
+            src="/profile_img.jpg"
+            width="0"
+            height="0"
+            sizes="100vw"
+            alt="profile picture"
+            priority={true}
+          />
+          <div className=" md:px-16 text-left leading-loose text-gray-800">
+            <h2 className="pb-4">What else do I like!</h2>
+            <ul>
+              <li>Playing football and cricket</li>
+              <li>Watching movies and tv series</li>
+              <li>Playing guiter</li>
+              <li>Listen to musics</li>
+              <li>Hanging out with friends</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   );
