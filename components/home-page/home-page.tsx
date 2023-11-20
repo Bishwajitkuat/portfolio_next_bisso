@@ -1,26 +1,33 @@
 import React from "react";
 import ConnectLinks from "../navbar/connect-links";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function HomePage() {
   return (
-    <div className="w-full h-screen text-center">
-      <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
-        <div>
-          <p className=" uppercase text-sm tracking-widest text-gray-600">
-            Let's build something togather
-          </p>
+    <div className=" w-full pt-[3rem] md:pt-[6rem] flex text-center">
+      <div className="max-w-[1240px] grid md:grid-cols-3 gap-8  mx-auto p-2 justify-center items-center">
+        <div className="md:col-span-2">
           <h1 className="py-4 text-gray-700">
-            Hello! I'm <span className="text-[#5651e5]">Bisso</span>
+            Hello! I'm <span className="text-[#5651e5]">Bishwajit Das</span>
           </h1>
           <h2 className="py-4 text-gray-700 text-3xl">
-            A Full-Stack Developer
+            A Full-Stack Web Developer
           </h2>
-          <p className=" py-4 text-gray-600 max-w-[70%] m-auto">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit
-            maxime, hic odio distinctio explicabo nobis sequi, vel, eum animi
-            quae blanditiis illo libero veritatis aliquam dignissimos mollitia
-            dolor perspiciatis dolores dicta ab quod laboriosam dolorem? Odit
-            mollitia tempore a. Reprehenderit ad voluptatibus, perspiciatis
+          <p className=" py-4  text-gray-700 max-w-[70%] m-auto">
+            I like programming and web development. I am finishing up my study
+            of{" "}
+            <Link
+              className="text-[#5651e5]"
+              href="https://en.bc.fi/qualifications/full-stack-web-developer-program/"
+            >
+              Full Stack Web Developer program
+            </Link>{" "}
+            at{" "}
+            <Link className="text-[#5651e5]" href="">
+              Business College Helsinki.
+            </Link>{" "}
+            Currently, I am looking for a job or internship in web development.
           </p>
           <div className="flex justify-center items-center">
             <ConnectLinks
@@ -29,6 +36,15 @@ export default function HomePage() {
             />
           </div>
         </div>
+        <Image
+          className="w-full h-auto rounded-full shadow-xl shadow-gray-400"
+          src="/profile_picture.jpg"
+          alt="profile picture"
+          width="0"
+          height="0"
+          sizes="100vw"
+          priority={true}
+        />
       </div>
     </div>
   );
