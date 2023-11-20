@@ -6,8 +6,8 @@ import { projects } from "@/data/project-card";
 export default function ProjectsPage() {
   return (
     <div className="w-full">
-      <div className=" max-w-[1240px] mx-auto px-2">
-        <p className=" text-2xl font-bold tracking-widest uppercase text-center text-[#5651e5] py-14">
+      <div className=" px-16 pt-8 md:pt-12 max-w-[1240px] mx-auto">
+        <p className="uppercase pb-20 text-center text-[3rem] tracking-widest text-[#5651e5]">
           Projects
         </p>
         <ul className="grid md:grid-cols-2 gap-[4rem]">
