@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function HomePage() {
   return (
-    <div className=" w-full pt-[3rem] md:pt-[6rem] flex text-center">
+    <div className=" w-full min-h-[90vh] flex text-center">
       <div className="max-w-[1240px] grid md:grid-cols-3 gap-8  mx-auto p-2 justify-center items-center">
         <div className="md:col-span-2">
           <h1 className="py-4 text-gray-700">
@@ -14,17 +14,22 @@ export default function HomePage() {
           <h2 className="py-4 text-gray-700 text-3xl">
             A Full-Stack Web Developer
           </h2>
-          <p className=" py-4  text-gray-700 max-w-[70%] m-auto">
+          <p className=" py-4 leading-loose  text-gray-700 max-w-[70%] m-auto">
             I like programming and web development. I am finishing up my study
             of{" "}
             <Link
               className="text-[#5651e5]"
               href="https://en.bc.fi/qualifications/full-stack-web-developer-program/"
+              target="_blanck"
             >
               Full Stack Web Developer program
             </Link>{" "}
             at{" "}
-            <Link className="text-[#5651e5]" href="">
+            <Link
+              className="text-[#5651e5]"
+              href="https://www.bc.fi/"
+              target="_blanck"
+            >
               Business College Helsinki.
             </Link>{" "}
             Currently, I am looking for a job or internship in web development.
