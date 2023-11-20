@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Navbar from "@/components/navbar/navbar";
 import HomePage from "@/components/home-page/home-page";
+import Footer from "./footer";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -15,6 +16,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       </Head>
       <Navbar />
       <main className="grid-1 py-20">{children}</main>
+      <Footer />
     </>
   );
 }
