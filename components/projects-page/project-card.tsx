@@ -20,9 +20,9 @@ export default function ProjectCard({ project }: ProjectCardPros) {
     liveSite,
   } = project;
   return (
-    <li className=" grid items-center shadow-lx rounded-xl bg-gray-300 p-2 gap-6 hover:scale-105 ease-in duration-300 ">
+    <li className=" grid md:grid-cols-2 shadow-lx rounded-xl bg-[#5651e516] hover:bg-[#5651e56f] p-6 gap-6 hover:shadow-2xl hover:scale-105 ease-in duration-100  ">
       <Image
-        className="rounded-xl"
+        className="md:order-2 rounded-xl self-center"
         src={imgURL}
         alt={imgAlt}
         width="0"
@@ -31,33 +31,35 @@ export default function ProjectCard({ project }: ProjectCardPros) {
         style={{ width: "100%", height: "auto" }}
         priority={false}
       />
-      <div className=" flex justify-start items-baseline gap-2">
-        {skillIconUrl.map((icon, index) => (
-          <Image
-            key={index}
-            src={icon.imgPath}
-            alt={icon.imgAlt}
-            width="0"
-            height="0"
-            sizes="100vw"
-            style={{ width: "6%", height: "auto" }}
-          />
-        ))}
-      </div>
-      <h2 className="justify-self-center self-baseline py-4 text-xl">
-        {projectName}
-      </h2>
-      <p>{projectDescription}</p>
-      <ul className="justify-self-center flex gap-6">
-        {liveSite && (
-          <Link href={liveSite} target="_blank">
-            <TbWorldWww size={40} color="#5651e5" />
+      <div className="grid gap-6">
+        <h2 className="justify-self-center self-baseline py-4 text-xl">
+          {projectName}
+        </h2>
+        <div className="flex justify-center items-baseline gap-2">
+          {skillIconUrl.map((icon, index) => (
+            <Image
+              key={index}
+              src={icon.imgPath}
+              alt={icon.imgAlt}
+              width="0"
+              height="0"
+              sizes="100vw"
+              style={{ width: "6%", height: "auto" }}
+            />
+          ))}
+        </div>
+        <p>{projectDescription}</p>
+        <ul className="justify-self-center flex gap-6">
+          {liveSite && (
+            <Link href={liveSite} target="_blank">
+              <TbWorldWww size={40} color="#4540ed" />
+            </Link>
+          )}
+          <Link href={gitHub} target="_blank">
+            <FaGithub color="#4540ed" size={40} />
           </Link>
-        )}
-        <Link href={gitHub} target="_blank">
-          <FaGithub color="#5651e5" size={40} />
-        </Link>
-      </ul>
+        </ul>
+      </div>
     </li>
   );
 }
