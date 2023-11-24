@@ -47,6 +47,26 @@ export const projects: ProjeectDataType[] = [
   },
 
   {
+    id: -2,
+    imgURL: "/projects_imgs/",
+    imgAlt: "project image",
+    skillIconUrl: [
+      { imgPath: "/skills_imgs/nextjs.svg", imgAlt: "nextjs" },
+      { imgPath: "/skills_imgs/tailwind.svg", imgAlt: "react tailwind" },
+      { imgPath: "/skills_imgs/typescript.svg", imgAlt: "typescript" },
+      { imgPath: "/skills_imgs/zod.svg", imgAlt: "zod" },
+      { imgPath: "/skills_imgs/drupal.svg", imgAlt: "drupal" },
+      { imgPath: "/skills_imgs/docker.svg", imgAlt: "docker" },
+      { imgPath: "/skills_imgs/lando.svg", imgAlt: "lando" },
+      { imgPath: "/skills_imgs/mysql.svg", imgAlt: "mysql" },
+    ],
+    projectName: "Wunder Website",
+    projectDescription:
+      "This is an ongoing project where me and my four classmates working together in collaboration with Wunder (https://wunder.io/) to build a website for Wunder. This project is part of the 'Software Development Team Project 2' course at Business College Helsinki. The project is Decoupled Drupal in nature where we are using Nextjs, Tailwind CSS, TypeScript, and Zod in the frontend and Drupal in the backend for content management.",
+    gitHub: "https://github.com/stacknatic/next-js-drupal",
+  },
+
+  {
     id: 1,
     imgURL: "/projects_imgs/bard_blog.png",
     imgAlt: "project image",
