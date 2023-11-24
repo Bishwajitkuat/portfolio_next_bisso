@@ -15,14 +15,14 @@ export default function AboutPage() {
               <h2>Story of becoming a web developer</h2>
               <p className="py-4 pt-4">
                 I was a <span className="">Plant Biotechnologies</span> and
-                completed my Masters of Science Degree from University of
-                Helsinki 2020. However I have strong interest in programming,
-                problem solving, research and data analysis. During my stydies
-                in University of Helsinki, I took some courses which required
-                some programming knowledge. I have struggled a lot during these
-                courses because of lack of programming skill. Despite my
-                strugle, I become more interested toward programming and later
-                completed Introduction to Programming from{" "}
+                completed my Master of Science Degree from the University of
+                Helsinki 2020. However, I have a strong interest in programming,
+                problem-solving, research, and data analysis. During my studies
+                at the University of Helsinki, I took some courses which
+                required some programming knowledge. I have struggled a lot
+                during these courses because of a lack of programming skills.
+                Despite my struggles, I became more interested in programming
+                and later completed Introduction to Programming from{" "}
                 <Link
                   className="text-[#5651e5]"
                   href="https://www.mooc.fi/en/"
@@ -32,10 +32,10 @@ export default function AboutPage() {
                 </Link>
               </p>
               <p className="py-4">
-                Even though, I have strong motivation, I did not get enough
-                opportunitie to learn it and change my career. Finally, at 2022
-                I have descided to change my career to web development and
-                started learning programming. Initially, I starts with some{" "}
+                Even though I have strong motivation, I did not get enough
+                opportunities to learn it and change my career. Finally, at 2022
+                I have decided to change my career to web development and
+                started learning programming. Initially, I start with some{" "}
                 <Link
                   className="text-[#6551e5]"
                   href="https://www.udemy.com/user/bishwajit-das-24/"
@@ -46,12 +46,12 @@ export default function AboutPage() {
                 .
               </p>
               <p className="py-4">
-                Over time, I have realized that I really like programming,
-                problem solving and enjoy building web applications.
+                Over time, I have realized that I like programming,
+                problem-solving and enjoy building web applications.
               </p>
 
               <p className="py-4">
-                At the begining of 2023 I have admitted into{" "}
+                At the beginning of 2023 I have admitted into{" "}
                 <Link
                   className="text-[#5651e5]"
                   href="https://en.bc.fi/qualifications/full-stack-web-developer-program/"
@@ -67,9 +67,9 @@ export default function AboutPage() {
                 >
                   Business College Helsinki.
                 </Link>{" "}
-                This excellent programme taught me some modern web development
-                techenologies and gave enough projects to sharpen my skills . I
-                am at the end of my study and I am already feel confident that I
+                This excellent program taught me some modern web development
+                technologies and gave me enough projects to sharpen my skills. I
+                am at the end of my studies and I already feel confident that I
                 would be a better web developer.
               </p>
               <p>
