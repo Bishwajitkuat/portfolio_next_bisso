@@ -32,6 +32,21 @@ export const projects: ProjeectDataType[] = [
   },
 
   {
+    id: -1,
+    imgURL: "/projects_imgs/portfolio_nextjs.png",
+    imgAlt: "project image",
+    skillIconUrl: [
+      { imgPath: "/skills_imgs/nextjs.svg", imgAlt: "nextjs" },
+      { imgPath: "/skills_imgs/tailwind.svg", imgAlt: "react tailwind" },
+      { imgPath: "/skills_imgs/typescript.svg", imgAlt: "typescript" },
+    ],
+    projectName: "Portfolio Bishwajit Das",
+    projectDescription:
+      "This is my personal portfolio project. Visitors can learn about me, my skills, and some of my selected projects. On the contact page, visitors can see my contacts and be able to send me messages. I have used Nextjs and TypeScript to build the app and tailwind CSS to style it.",
+    gitHub: "https://github.com/Bishwajitkuat/portfolio_next_bisso",
+  },
+
+  {
     id: 1,
     imgURL: "/projects_imgs/bard_blog.png",
     imgAlt: "project image",
@@ -44,7 +59,7 @@ export const projects: ProjeectDataType[] = [
     ],
     projectName: "Bird Blog",
     projectDescription:
-      "This a simple bird blog website. I have used PHP to create the backend where API routes are created for read, write, update and delete posts. Data are stored into MySQL data base. In the fontend I have used React where data from backed is fetched through Axios and rendered into browser.",
+      "This a simple bird blog website. I have used PHP to create the backend where API routes are created to read, write, update, and delete posts. Data are stored in MySQL database. In the frontend, I have used React where data from the backend is fetched through Axios and rendered into the browser.",
     gitHub:
       "https://github.com/Bishwajitkuat/react_php_fullstack_bird_blog.git",
   },
@@ -58,7 +73,7 @@ export const projects: ProjeectDataType[] = [
     ],
     projectName: "Recipe App",
     projectDescription:
-      "It's a CRUD app for recipes. Users can view all the prvious reccipe, create new recipe, update existing recipe and delete recipes. I have used Json Server for backend and React and Axios in fontend.",
+      "It's a CRUD app for recipes. Users can view all the previous recipes, create new recipes, update existing recipes, and delete recipes. I have used JSON Server for the backend and React and Axios in the frontend.",
     gitHub: "https://github.com/Bishwajitkuat/recipe_app_react.git",
   },
 
@@ -72,7 +87,7 @@ export const projects: ProjeectDataType[] = [
     ],
     projectName: "Portfolio | HTML & CSS",
     projectDescription:
-      "It's a dummy personal portfolio of a person.I have only used HTML and CSS to build this site. And this website is responsive",
+      "It's a dummy personal portfolio of a person. I have only used HTML and CSS to build this site. This website is responsive.",
     gitHub: "https://github.com/Bishwajitkuat/portfolio_assignment_Margit.git",
     liveSite: "https://public.bc.fi/s2300096/portfolio_assignment/",
   },
@@ -87,7 +102,7 @@ export const projects: ProjeectDataType[] = [
     ],
     projectName: "Pokedex | JS, HTML & CSS",
     projectDescription:
-      "Users can filter pokemon by generation, type and name and all the filtered pokemon are presended into nice looking cards. The app is responsive as well. I have used only JavaScript, HTML and CSS to build this app. Data is fetched from  PokeApi.",
+      "Users can filter Pokemon by generation, type, and name, and all the filtered Pokemon are presented into nice-looking cards. The app is responsive as well. I have used only JavaScript, HTML, and CSS to build this app. Data is fetched from  PokeApi.",
     gitHub: "https://github.com/Bishwajitkuat/pokedex.git",
     liveSite: "https://public.bc.fi/s2300096/pokedex/",
   },
@@ -102,7 +117,7 @@ export const projects: ProjeectDataType[] = [
     ],
     projectName: "Speed Game | JS, HTML & CSS",
     projectDescription:
-      "When you start the game, it will give option, if you click on the correct option, game will continue and gives new option. From the setting icone, game speed can be changed.",
+      "When you start the game, it will give options, if you click on the correct option, the game will continue and give a new option. From the setting icon, the game speed can be changed.",
     gitHub: "https://github.com/Bishwajitkuat/pokedex.git",
     liveSite: "https://public.bc.fi/s2300096/speed__game/",
   },
@@ -119,7 +134,7 @@ export const projects: ProjeectDataType[] = [
     ],
     projectName: "Dummy Portfolio | Drupal",
     projectDescription:
-      "This is a dummy portfolio project with durpal10 and it is part of my drupal course assignment. I have try to implement several aspect of my learning of drupal such as custom content type, display management of conten type, creation of viewes, block, taxonomy terms etc.",
+      "This is a dummy portfolio project with durpal10 and it is part of my Drupal course assignment. I have tried to implement several aspects of my learning of Drupal such as custom content type, display management of content type, creation of views, block, taxonomy terms, etc.",
     gitHub: "https://github.com/Bishwajitkuat/portfolio-project-drupal10.git",
   },
 ];
