@@ -19,7 +19,7 @@ export default function Navbar() {
         <div>
           <MenuLinks
             ulClass="hidden md:flex"
-            liClass="ml-10 text-sm uppercase hober:border-b"
+            liClass="ml-10 text-sm font-bold uppercase hover:border-b hover:text-[#5651e5] ease-in duration-200"
           />
         </div>
         <button onClick={navHandler} className="md:hidden">
