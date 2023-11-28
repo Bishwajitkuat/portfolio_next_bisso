@@ -37,8 +37,9 @@ export const projects: ProjeectDataType[] = [
     imgAlt: "project image",
     skillIconUrl: [
       { imgPath: "/skills_imgs/nextjs.svg", imgAlt: "nextjs" },
-      { imgPath: "/skills_imgs/tailwind.svg", imgAlt: "react tailwind" },
       { imgPath: "/skills_imgs/typescript.svg", imgAlt: "typescript" },
+      { imgPath: "/skills_imgs/zod.svg", imgAlt: "zod" },
+      { imgPath: "/skills_imgs/tailwind.svg", imgAlt: "react tailwind" },
     ],
     projectName: "Portfolio Bishwajit Das",
     projectDescription:
