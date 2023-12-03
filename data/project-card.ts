@@ -49,7 +49,7 @@ export const projects: ProjeectDataType[] = [
 
   {
     id: -2,
-    imgURL: "/projects_imgs/",
+    imgURL: "/projects_imgs/wunder_website.png",
     imgAlt: "project image",
     skillIconUrl: [
       { imgPath: "/skills_imgs/nextjs.svg", imgAlt: "nextjs" },
