@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import ConnectLinks from "../navbar/connect-links";
 import Image from "next/image";
