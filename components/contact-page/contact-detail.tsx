@@ -40,10 +40,10 @@ export default function ContactDetail() {
           <strong>Resume</strong>
           <Link
             className="hover:text-[#5651e5]"
-            href="https://drive.google.com/file/d/1aIUavNLV3RMtAaXLWrSO1R-f3vHHW90f/view?usp=sharing"
+            href="https://drive.google.com/file/d/1-z-7q6RocUbdaYH4SDAk_ks1tXmGX2ih/view?usp=sharing"
             target="_blanck"
           >
-            https://drive.google.com/file/d/1aIUavNLV3RMtAaXLWrSO1R-f3vHHW90f/view?usp=sharing
+            https://drive.google.com/file/d/1-z-7q6RocUbdaYH4SDAk_ks1tXmGX2ih/view?usp=sharing
           </Link>
         </li>
       </ul>
