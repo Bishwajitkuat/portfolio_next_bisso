@@ -1,7 +1,9 @@
 import Link from "next/link";
 import React from "react";
-
+import { useRouter } from "next/router";
 export default function ContactDetail() {
+  const router = useRouter();
+  console.log(router);
   return (
     <div className="pt-12">
       <h2 className="text-center text-xl pb-12">Contact Details</h2>
@@ -40,10 +42,10 @@ export default function ContactDetail() {
           <strong>Resume</strong>
           <Link
             className="hover:text-[#5651e5]"
-            href="https://drive.google.com/file/d/1-z-7q6RocUbdaYH4SDAk_ks1tXmGX2ih/view?usp=sharing"
+            href="/resume_bishwajit_web_development.pdf"
             target="_blanck"
           >
-            https://drive.google.com/file/d/1-z-7q6RocUbdaYH4SDAk_ks1tXmGX2ih/view?usp=sharing
+            https://bisso-portfolio.vercel.app/resume_bishwajit_web_development.pdf
           </Link>
         </li>
       </ul>

@@ -29,10 +29,7 @@ export default function ConnectLinks({
         </Link>
       </li>
       <li className={liClass}>
-        <Link
-          href="https://drive.google.com/file/d/1-z-7q6RocUbdaYH4SDAk_ks1tXmGX2ih/view?usp=sharing"
-          target="_blank"
-        >
+        <Link href="/resume_bishwajit_web_development.pdf" target="_blank">
           <BsPersonVcard color="blue" />
         </Link>
       </li>
