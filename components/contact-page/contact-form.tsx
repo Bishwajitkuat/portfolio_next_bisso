@@ -85,7 +85,7 @@ export default function ContactForm() {
           )}
         </div>
         <div className="flex flex-col gap-2">
-          <label htmlFor="message">message</label>
+          <label htmlFor="message">Message</label>
           <textarea
             className="p-2 min-h-[150px] md:min-h-[200px]"
             placeholder="Hello!, please write your message here!"
