@@ -23,7 +23,7 @@ export default function HomePage() {
               href="https://en.bc.fi/qualifications/full-stack-web-developer-program/"
               target="_blanck"
             >
-              Full Stack Web Developer program
+              Full Stack Web Developer Program
             </Link>{" "}
             at{" "}
             <Link
