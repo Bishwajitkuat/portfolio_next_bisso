@@ -34,6 +34,15 @@ export default function ContactDetail() {
             https://github.com/Bishwajitkuat
           </Link>
         </li>
+        <li className="grid">
+          <strong>Resume</strong>
+          <Link
+            className="hover:text-[#5651e5]"
+            href="https://drive.google.com/file/d/1aIUavNLV3RMtAaXLWrSO1R-f3vHHW90f/view?usp=sharing"
+          >
+            https://drive.google.com/file/d/1aIUavNLV3RMtAaXLWrSO1R-f3vHHW90f/view?usp=sharing
+          </Link>
+        </li>
       </ul>
     </div>
   );
