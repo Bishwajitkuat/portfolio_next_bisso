@@ -9,7 +9,7 @@ export default function ContactDetail() {
         Following are some of the contact details. Please feel free to reach out
         through any of the following media.
       </p>
-      <ul className="grid gap-2">
+      <ul className="grid gap-2  break-all">
         <li className="grid">
           <strong>Name</strong> <span>Bishwajit Das</span>
         </li>

@@ -15,7 +15,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <link rel="icon" href="" />
       </Head>
       <Navbar />
-      <main className="grid-1 py-20">{children}</main>
+      <main className="grid py-20">{children}</main>
       <Footer />
     </>
   );
