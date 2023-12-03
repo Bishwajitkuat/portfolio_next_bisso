@@ -21,6 +21,7 @@ export default function ContactDetail() {
           <Link
             className="hover:text-[#5651e5]"
             href="https://www.linkedin.com/in/bishwajitkuat/"
+            target="_blanck"
           >
             https://www.linkedin.com/in/bishwajitkuat/
           </Link>
@@ -30,6 +31,7 @@ export default function ContactDetail() {
           <Link
             className="hover:text-[#5651e5]"
             href="https://github.com/Bishwajitkuat"
+            target="_blanck"
           >
             https://github.com/Bishwajitkuat
           </Link>
@@ -39,6 +41,7 @@ export default function ContactDetail() {
           <Link
             className="hover:text-[#5651e5]"
             href="https://drive.google.com/file/d/1aIUavNLV3RMtAaXLWrSO1R-f3vHHW90f/view?usp=sharing"
+            target="_blanck"
           >
             https://drive.google.com/file/d/1aIUavNLV3RMtAaXLWrSO1R-f3vHHW90f/view?usp=sharing
           </Link>
