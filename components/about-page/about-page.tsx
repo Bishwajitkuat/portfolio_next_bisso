@@ -5,14 +5,16 @@ import React from "react";
 export default function AboutPage() {
   return (
     <div className="w-full min-h-screen flex justify-center pt-8 md:pt-12">
-      <div className="px-16">
+      <div className="px-4 md:px-16">
         <h3 className=" uppercase pb-20 text-center text-[3rem] tracking-widest text-[#5651e5]">
           About
         </h3>
         <div className="max-w-[1240px]  m-auto grid md:grid-cols-3 justify-center gap-8">
           <div className="md:col-span-2">
             <div className=" md:px-16 text-left leading-loose text-gray-800">
-              <h2>Story of becoming a web developer</h2>
+              <h2 className="text-center md:text-left">
+                Story of becoming a web developer
+              </h2>
               <p className="py-4 pt-4">
                 I was a <span className="">Plant Biotechnologies</span> and
                 completed my Master of Science Degree from the University of
@@ -88,9 +90,9 @@ export default function AboutPage() {
             alt="profile picture"
             priority={true}
           />
-          <div className=" md:px-16 text-left leading-loose text-gray-800">
-            <h2 className="pb-4">What else do I like!</h2>
-            <ul>
+          <div className="pt-8 md:col-span-2 md:px-16 text-left leading-loose text-gray-800">
+            <h2 className="text-center md:text-left">What else do I like!</h2>
+            <ul className="pt-6 ">
               <li>Playing football and cricket</li>
               <li>Watching movies and tv series</li>
               <li>Playing guiter</li>

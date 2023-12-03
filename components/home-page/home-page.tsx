@@ -9,10 +9,10 @@ export default function HomePage() {
     <div className=" w-full min-h-[90vh] flex text-center">
       <div className="max-w-[1240px] grid md:grid-cols-3 gap-8  mx-auto p-2 justify-center items-center">
         <div className="md:col-span-2">
-          <h1 className="py-4 text-gray-700">
+          <h1 className="pt-8 md:py-4 text-gray-700">
             Hello! I'm <span className="text-[#5651e5]">Bishwajit Das</span>
           </h1>
-          <h2 className="py-4 text-gray-700 text-3xl">
+          <h2 className="py-8 text-gray-700 text-3xl">
             A Full-Stack Web Developer
           </h2>
           <p className=" py-4 leading-loose  text-gray-700 max-w-[70%] m-auto">
