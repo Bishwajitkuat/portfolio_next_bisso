@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub, FaFacebookF } from "react-icons/fa";
+import { BsPersonVcard } from "react-icons/bs";
 
 export default function ConnectLinks({
   ulClass,
@@ -25,6 +26,14 @@ export default function ConnectLinks({
       <li className={liClass}>
         <Link href="mailto:bishwajitkuat@gmail.com">
           <AiOutlineMail color="blue" />
+        </Link>
+      </li>
+      <li className={liClass}>
+        <Link
+          href="https://drive.google.com/file/d/1-z-7q6RocUbdaYH4SDAk_ks1tXmGX2ih/view?usp=sharing"
+          target="_blank"
+        >
+          <BsPersonVcard color="blue" />
         </Link>
       </li>
       <li className={liClass}>
