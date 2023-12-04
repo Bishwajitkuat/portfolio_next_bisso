@@ -16,7 +16,7 @@ export default function AboutPage() {
                 Story of becoming a web developer
               </h2>
               <p className="py-4 pt-4">
-                I was a <span className="">Plant Biotechnologies</span> and
+                I was a <span className="">Plant Biotechnologiest</span> and
                 completed my Master of Science Degree from the University of
                 Helsinki 2020. However, I have a strong interest in programming,
                 problem-solving, research, and data analysis. During my studies
@@ -37,7 +37,7 @@ export default function AboutPage() {
                 Even though I have strong motivation, I did not get enough
                 opportunities to learn it and change my career. Finally, at 2022
                 I have decided to change my career to web development and
-                started learning programming. Initially, I start with some{" "}
+                started learning programming. Initially, I started with some{" "}
                 <Link
                   className="text-[#6551e5]"
                   href="https://www.udemy.com/user/bishwajit-das-24/"
@@ -96,7 +96,7 @@ export default function AboutPage() {
               <li>Playing football and cricket</li>
               <li>Watching movies and tv series</li>
               <li>Playing guiter</li>
-              <li>Listen to musics</li>
+              <li>Listen to music</li>
               <li>Hanging out with friends</li>
             </ul>
           </div>
