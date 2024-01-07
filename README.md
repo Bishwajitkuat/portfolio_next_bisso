@@ -8,7 +8,7 @@ This is my personal portfolio project. Visitors can learn about me, my skills, a
 
 ## Live Site
 
-<a href="#" target="_blanck">Live Site</a>
+<a href="https://bisso-portfolio.vercel.app/" target="_blanck">Live Site</a>
 
 ## Technologies
 
