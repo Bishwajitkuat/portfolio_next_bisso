@@ -175,7 +175,7 @@ export const devOpsTechs: SkillsType[] = [
     imgFileName: "docker.svg",
     imgAlt: "docker logo",
     skillName: "Docker",
-    skillLevel: 45,
+    skillLevel: 70,
     link: "https://www.docker.com/",
   },
   {
