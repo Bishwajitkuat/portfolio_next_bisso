@@ -16,7 +16,7 @@ export default function AboutPage() {
                 Story of becoming a web developer
               </h2>
               <p className="py-4 pt-4">
-                I was a <span className="">Plant Biotechnologiest</span> and
+                I was a <span className="">Plant Biotechnologist</span> and
                 completed my Master of Science Degree from the University of
                 Helsinki 2020. However, I have a strong interest in programming,
                 problem-solving, research, and data analysis. During my studies
