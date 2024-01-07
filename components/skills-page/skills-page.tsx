@@ -16,7 +16,7 @@ export default function SkillsPage() {
           Skills
         </p>
         <div className="py-8">
-          <h2 className=" text-center text-xl pb-8">Programming Languages</h2>
+          <h2 className=" text-center text-xl pb-8">Languages</h2>
           <ul className="py-8 px-4 grid grid-cols-2 md:grid-cols-4 lg:grid-col-5 gap-6 justify-center items-end shadow-xl rounded-xl ">
             {programmingLanguages.map((skill) => (
               <SkillCard

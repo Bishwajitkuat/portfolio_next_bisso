@@ -31,6 +31,14 @@ export const programmingLanguages: SkillsType[] = [
   },
   {
     id: 3,
+    imgFileName: "bash.svg",
+    imgAlt: "bash logo",
+    skillName: "Bash",
+    skillLevel: 40,
+    link: "https://www.gnu.org/software/bash/",
+  },
+  {
+    id: 4,
     imgFileName: "python.svg",
     imgAlt: "python logo",
     skillName: "Python",
