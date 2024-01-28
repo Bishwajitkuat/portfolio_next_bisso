@@ -20,7 +20,7 @@ export default function ProjectCard({ project }: ProjectCardPros) {
     liveSite,
   } = project;
   return (
-    <li className=" grid md:grid-cols-2 shadow-lx rounded-xl bg-[#5651e516] hover:bg-[#5651e56f] p-6 gap-6 hover:shadow-2xl hover:scale-105 ease-in duration-100  ">
+    <li className=" grid md:grid-cols-2 shadow-lx rounded-xl bg-gradient-to-tr from-blue-200 hover:bg-[#5651e56f] p-6 gap-6 hover:shadow-2xl hover:scale-105 ease-in duration-300  ">
       <Image
         className="md:order-2 rounded-xl self-center"
         src={imgURL}
