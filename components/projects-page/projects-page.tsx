@@ -10,7 +10,7 @@ export default function ProjectsPage() {
         <p className="uppercase pb-20 text-center text-[3rem] tracking-widest text-[#5651e5]">
           Projects
         </p>
-        <ul className="grid justify-center  gap-[4rem]">
+        <ul className="grid md:grid-cols-2 justify-center  gap-[4rem]">
           {projects.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}
