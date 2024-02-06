@@ -17,7 +17,7 @@ export default function SkillsPage() {
         </p>
         <div className="py-8">
           <div className="bg-gradient-to-br from-blue-500 via-red-500 to-green-500 rounded-xl p-[1px] shadow-[10px_0_60px_-15px_rgba(0,0,0,0.3)] ">
-            <div className="bg-[#ecf0f3] rounded-xl  ">
+            <div className="bg-[#cbd5e1] rounded-xl  ">
               <h2 className=" text-center text-2xl uppercase tracking-widest py-8">
                 Languages
               </h2>
@@ -38,7 +38,7 @@ export default function SkillsPage() {
         </div>
         <div className="py-8">
           <div className="bg-gradient-to-br from-blue-500 via-red-500 to-green-500 rounded-xl p-[1px] shadow-[10px_0_60px_-15px_rgba(0,0,0,0.3)] ">
-            <div className="bg-[#ecf0f3] rounded-xl  ">
+            <div className="bg-[#cbd5e1] rounded-xl  ">
               <h2 className="  text-center text-2xl uppercase tracking-widest py-8">
                 Full-Stack Technologies
               </h2>
@@ -59,7 +59,7 @@ export default function SkillsPage() {
         </div>
         <div className="py-8">
           <div className="bg-gradient-to-br from-blue-500 via-red-500 to-green-500 rounded-xl p-[1px] shadow-[10px_0_60px_-15px_rgba(0,0,0,0.3)] ">
-            <div className="bg-[#ecf0f3] rounded-xl  ">
+            <div className="bg-[#cbd5e1] rounded-xl  ">
               <h2 className="  text-center text-2xl uppercase tracking-widest py-8">
                 Front-End Technologies
               </h2>
@@ -80,7 +80,7 @@ export default function SkillsPage() {
         </div>
         <div className="py-8">
           <div className="bg-gradient-to-br from-blue-500 via-red-500 to-green-500 rounded-xl p-[1px] shadow-[10px_0_60px_-15px_rgba(0,0,0,0.3)] ">
-            <div className="bg-[#ecf0f3] rounded-xl  ">
+            <div className="bg-[#cbd5e1] rounded-xl  ">
               <h2 className="  text-center text-2xl uppercase tracking-widest py-8">
                 Back-End Technologies
               </h2>
@@ -101,7 +101,7 @@ export default function SkillsPage() {
         </div>
         <div className="py-8">
           <div className="bg-gradient-to-br from-blue-500 via-red-500 to-green-500 rounded-xl p-[1px] shadow-[10px_0_60px_-15px_rgba(0,0,0,0.3)] ">
-            <div className="bg-[#ecf0f3] rounded-xl  ">
+            <div className="bg-[#cbd5e1] rounded-xl  ">
               <h2 className="  text-center text-2xl uppercase tracking-widest py-8">
                 DevOps Technologies
               </h2>

@@ -31,7 +31,7 @@ export const projects: ProjeectDataType[] = [
     liveSite: "https://countryappreact.web.app/",
   },
   {
-    id: -2,
+    id: -3,
     imgURL: "/projects_imgs/react_pizzas.png",
     imgAlt: "project image",
     skillIconUrl: [
