@@ -30,6 +30,23 @@ export const projects: ProjeectDataType[] = [
     gitHub: "https://github.com/Bishwajitkuat/country_app_react",
     liveSite: "https://countryappreact.web.app/",
   },
+  {
+    id: -2,
+    imgURL: "/projects_imgs/react_pizzas.png",
+    imgAlt: "project image",
+    skillIconUrl: [
+      { imgPath: "/skills_imgs/react.svg", imgAlt: "react" },
+      { imgPath: "/skills_imgs/redux.svg", imgAlt: "react redux" },
+      { imgPath: "/skills_imgs/tailwind.svg", imgAlt: "tailwind" },
+      { imgPath: "/skills_imgs/typescript.svg", imgAlt: "typescript" },
+      { imgPath: "/skills_imgs/javaScript.svg", imgAlt: "javascript" },
+    ],
+    projectName: "React Pizza",
+    projectDescription:
+      "An website for odering pizzas. User can add pizzas into cart and adjust item numbers from cart. Finaly place an order. After placing a order, users will be redirected to order status page. I have used 'react-fast-pizza-api' API for backend functionalities. The app is hosted at Vercel.",
+    gitHub: "https://github.com/Bishwajitkuat/react_pizzas.git",
+    liveSite: "https://react-pizzas-bisso.vercel.app/",
+  },
 
   {
     id: -1,
