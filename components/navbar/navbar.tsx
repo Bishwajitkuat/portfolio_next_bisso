@@ -12,7 +12,7 @@ export default function Navbar() {
     setNav(!nav);
   };
   return (
-    <div className="fixed bg-gray-100 top-0 w-full h-20 shadow-xl z-[100]">
+    <div className="fixed bg-gradient-to-t from-gray-400 to-gray-200 px-3 md:px-[5rem] top-0 w-full h-20 shadow-xl z-[100]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
           <h2 className="text-5xl">BD</h2>
