@@ -61,7 +61,7 @@ export default function ProjectCard({ project }: ProjectCardPros) {
             </p>
           </Link>
         </ul>
-        <div className="flex items-start justify-end flex-wrap gap-2">
+        <div className="flex items-end justify-end flex-wrap gap-2">
           {skillIconUrl.map((icon, index) => (
             <Image
               key={index}
