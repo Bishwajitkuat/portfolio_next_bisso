@@ -47,6 +47,23 @@ export const projects: ProjeectDataType[] = [
     gitHub: "https://github.com/Bishwajitkuat/react_pizzas.git",
     liveSite: "https://react-pizzas-bisso.vercel.app/",
   },
+  {
+    id: -4,
+    imgURL: "/projects_imgs/express_shop.png",
+    imgAlt: "project image",
+    skillIconUrl: [
+      { imgPath: "/skills_imgs/node.svg", imgAlt: "nodejs icon" },
+      { imgPath: "/skills_imgs/tailwind.svg", imgAlt: "tailwind icon" },
+      { imgPath: "/skills_imgs/javaScript.svg", imgAlt: "javascript icon" },
+      { imgPath: "/skills_imgs/zod.svg", imgAlt: "zod icon" },
+      { imgPath: "/skills_imgs/mongodb.svg", imgAlt: "mongodb icon" },
+    ],
+    projectName: "Express Shop",
+    projectDescription:
+      "It is a Full stuck CRUD app built with Nodejs, Express, Ejs, and MongoDB. This app is a website for a C2C business. Users can create Their own accounts and list products to sell and buy products from others. They can update or delete their listing from the admin route. If a user forgets their password, they can reset the password throw the email address they have used during registration. All the user inputs and params values come to the server and go throw Zod validation. If the validations fail users are given feedback.",
+    gitHub: "https://github.com/Bishwajitkuat/express_shop.git",
+    liveSite: "https://express-shop-mx2o.onrender.com/",
+  },
 
   {
     id: -1,
