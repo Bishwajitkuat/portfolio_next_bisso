@@ -53,6 +53,7 @@ export const projects: ProjeectDataType[] = [
     imgAlt: "project image",
     skillIconUrl: [
       { imgPath: "/skills_imgs/node.svg", imgAlt: "nodejs icon" },
+      { imgPath: "/skills_imgs/ejs.svg", imgAlt: "ejs icon" },
       { imgPath: "/skills_imgs/tailwind.svg", imgAlt: "tailwind icon" },
       { imgPath: "/skills_imgs/javaScript.svg", imgAlt: "javascript icon" },
       { imgPath: "/skills_imgs/zod.svg", imgAlt: "zod icon" },

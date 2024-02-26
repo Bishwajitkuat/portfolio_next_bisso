@@ -132,6 +132,14 @@ export const frontEndTechs: SkillsType[] = [
     skillLevel: 75,
     link: "https://tailwindcss.com/",
   },
+  {
+    id: 5,
+    imgFileName: "ejs.svg",
+    imgAlt: "ejs logo",
+    skillName: "Ejs",
+    skillLevel: 75,
+    link: "https://ejs.co/",
+  },
 ];
 
 export const backEndTechs: SkillsType[] = [
