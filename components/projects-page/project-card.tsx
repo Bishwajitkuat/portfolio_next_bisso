@@ -48,18 +48,20 @@ export default function ProjectCard({ project }: ProjectCardPros) {
               </p>
             </Link>
           )}
-          <Link
-            href={gitHub}
-            target="_blank"
-            className="flex gap-1 items-center hover:scale-105 ease-in duration-200"
-          >
-            <div>
-              <FaGithub color="#1e3a8a" size={24} />
-            </div>
-            <p className="text-md text-blue-900 font-semibold tracking-widest">
-              GitHub
-            </p>
-          </Link>
+          {gitHub && (
+            <Link
+              href={gitHub}
+              target="_blank"
+              className="flex gap-1 items-center hover:scale-105 ease-in duration-200"
+            >
+              <div>
+                <FaGithub color="#1e3a8a" size={24} />
+              </div>
+              <p className="text-md text-blue-900 font-semibold tracking-widest">
+                GitHub
+              </p>
+            </Link>
+          )}
         </ul>
         <div className="flex items-end justify-end flex-wrap gap-2">
           {skillIconUrl.map((icon, index) => (
@@ -78,7 +80,7 @@ export default function ProjectCard({ project }: ProjectCardPros) {
       <h2 className="py-8 px-4 text-center text-2xl uppercase tracking-widest">
         {projectName}
       </h2>
-      <p className="grow px-4 pb-4">{projectDescription}</p>
+      <p className="grow px-4 pb-4 text-justify">{projectDescription}</p>
     </li>
   );
 }
