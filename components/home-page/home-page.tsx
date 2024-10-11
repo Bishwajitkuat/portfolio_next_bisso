@@ -15,25 +15,17 @@ export default function HomePage() {
           <h2 className="py-8 text-gray-700 text-3xl">
             A Full-Stack Web Developer
           </h2>
-          <p className=" py-4 leading-loose  text-gray-700 max-w-[70%] m-auto">
-            I like programming and web development. I am finishing up my study
-            of{" "}
-            <Link
-              className="text-[#5651e5]"
-              href="https://en.bc.fi/qualifications/full-stack-web-developer-program/"
-              target="_blanck"
-            >
-              Full Stack Web Developer Program
-            </Link>{" "}
-            at{" "}
-            <Link
-              className="text-[#5651e5]"
-              href="https://www.bc.fi/"
-              target="_blanck"
-            >
-              Business College Helsinki.
-            </Link>{" "}
-            Currently, I am looking for a job or internship in web development.
+          <p className=" py-4 leading-loose text-justify  text-gray-800 max-w-[70%] m-auto">
+            I acquired 2 years of diverse experience in programming and web
+            development through a combination of internships, training, studies,
+            and personal projects. I have a wide range of technical skills with
+            a background in plant biotechnology where I excels in planning,
+            research, analysis, and problem-solving.
+          </p>
+          <p className=" py-4 leading-loose text-justify  text-gray-800 max-w-[70%] m-auto">
+            My passion for programming has driven a successful transition into
+            the tech field, where I am continues to thriving as a skilled
+            developer.
           </p>
           <div className="flex justify-center items-center">
             <ConnectLinks
