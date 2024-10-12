@@ -9,7 +9,7 @@ import SkillCard from "./skill-card";
 
 export default function SkillsPage() {
   return (
-    <div className="w-full min-h-screen">
+    <div className="w-full">
       <div className="px-4 md:px-16 pt-8 md:pt-12 max-w-[1240px] mx-auto text-gray-700 font-bold  h-full">
         <p className="uppercase md:pb-20 text-center text-[3rem] tracking-widest text-[#5651e5]">
           Skills
