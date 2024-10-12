@@ -10,13 +10,17 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <title>Bisso | Full-Stuck Developer</title>
         <meta
           name="description"
-          content="portfolio of Bishwajit Das, app creaded with next js, typescript and react "
+          content="portfolio of Bishwajit Das, app created with next js, typescript and react "
         />
         <link rel="icon" href="" />
       </Head>
-      <Navbar />
-      <main className="grid py-20">{children}</main>
-      <Footer />
+      <div className="h-[100vh] flex flex-col">
+        <Navbar />
+        <div className="flex-grow ">
+          <main className="grid py-20">{children}</main>
+        </div>
+        <Footer />
+      </div>
     </>
   );
 }
