@@ -52,7 +52,7 @@ export const projects: ProjeectDataType[] = [
     liveSite: "https://countryappreact.web.app/",
   },
   {
-    id: 1,
+    id: 2,
     imgURL: "/projects_imgs/uscraper.png",
     imgAlt: "project image",
     skillIconUrl: [
@@ -76,7 +76,7 @@ export const projects: ProjeectDataType[] = [
     // liveSite: "https://countryappreact.web.app/",
   },
   {
-    id: 2,
+    id: 3,
     imgURL: "/projects_imgs/react_pizzas.png",
     imgAlt: "project image",
     skillIconUrl: [
@@ -92,7 +92,7 @@ export const projects: ProjeectDataType[] = [
     liveSite: "https://react-pizzas-bisso.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     imgURL: "/projects_imgs/express_shop.png",
     imgAlt: "project image",
     skillIconUrl: [
@@ -111,7 +111,7 @@ export const projects: ProjeectDataType[] = [
   },
 
   {
-    id: 4,
+    id: 5,
     imgURL: "/projects_imgs/portfolio_nextjs.png",
     imgAlt: "project image",
     skillIconUrl: [
@@ -128,7 +128,7 @@ export const projects: ProjeectDataType[] = [
   },
 
   {
-    id: 5,
+    id: 6,
     imgURL: "/projects_imgs/wunder_website.png",
     imgAlt: "project image",
     skillIconUrl: [
@@ -179,7 +179,7 @@ export const projects: ProjeectDataType[] = [
   // },
 
   {
-    id: 8,
+    id: 7,
     imgURL: "/projects_imgs/portfolio_html.png",
     imgAlt: "project image",
     skillIconUrl: [
@@ -193,7 +193,7 @@ export const projects: ProjeectDataType[] = [
     // liveSite: "https://public.bc.fi/s2300096/portfolio_assignment/",
   },
   {
-    id: 9,
+    id: 8,
     imgURL: "/projects_imgs/pokedex_app.png",
     imgAlt: "project image",
     skillIconUrl: [
@@ -208,7 +208,7 @@ export const projects: ProjeectDataType[] = [
     // liveSite: "https://public.bc.fi/s2300096/pokedex/",
   },
   {
-    id: 10,
+    id: 9,
     imgURL: "/projects_imgs/speed_game.png",
     imgAlt: "project image",
     skillIconUrl: [
@@ -223,7 +223,7 @@ export const projects: ProjeectDataType[] = [
     // liveSite: "https://public.bc.fi/s2300096/speed__game/",
   },
   {
-    id: 11,
+    id: 10,
     imgURL: "/projects_imgs/portfolio_drupal.png",
     imgAlt: "project image",
     skillIconUrl: [
