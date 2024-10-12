@@ -19,6 +19,9 @@ export default function MenuLinks({
       <Link href="/skills">
         <li className={liClass}>Skills</li>
       </Link>
+      <Link href="/experiences">
+        <li className={liClass}>Experiences</li>
+      </Link>
       <Link href="/projects">
         <li className={liClass}>Projects</li>
       </Link>
