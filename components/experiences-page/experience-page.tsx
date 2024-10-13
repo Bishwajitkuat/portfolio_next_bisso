@@ -35,7 +35,7 @@ function ExperiencePage() {
                 June 2024 - October 2024 (5 months)
               </div>
               <div>
-                <ul className="ps-[3rem] list-disc">
+                <ul className="ps-[2rem] list-disc">
                   <li>
                     Build e-commerce front end with React, Type-Script,
                     React-Query
@@ -71,7 +71,7 @@ function ExperiencePage() {
                 <p>Mar 2024 - Jun 2024 (4 months)</p>
               </div>
               <div>
-                <ul className="ps-[3rem] list-disc">
+                <ul className="ps-[2rem] list-disc">
                   <li>
                     Upgraded Codeigniter 3 project to Codeigniter 4 Restful API
                     and React for the front end
@@ -116,22 +116,21 @@ function ExperiencePage() {
                 <FaRegClock />
                 Oct 2023 - Dec 2023 (3 months)
               </div>
-              <div>
-                <ul className="ps-[3rem] list-disc">
-                  <li>
-                    Developed expertise in Next.js by creating and styling
-                    components, routes, and APIs
-                  </li>
-                  <li>
-                    Proficient in Drupal CMS, specializing in creating content
-                    types, configuration modifications, and data fetching
-                  </li>
-                  <li>
-                    Utilized Zod in Next.js for data validation and cleanup,
-                    ensuring data integrity throughout the project
-                  </li>
-                </ul>
-              </div>
+
+              <ul className="ps-[2rem] list-disc">
+                <li>
+                  Developed expertise in Next.js by creating and styling
+                  components, routes, and APIs
+                </li>
+                <li>
+                  Proficient in Drupal CMS, specializing in creating content
+                  types, configuration modifications, and data fetching
+                </li>
+                <li>
+                  Utilized Zod in Next.js for data validation and cleanup,
+                  ensuring data integrity throughout the project
+                </li>
+              </ul>
             </li>
             <li>
               <h3 className="text-[1.1rem] mb-[0.5rem] font-semibold tracking-wide text-blue-700">
@@ -141,7 +140,7 @@ function ExperiencePage() {
               <Link
                 href={"https://swappie.com/fi/"}
                 target="_blank"
-                className="flex items-center gap-[0.5rem] text-blue-900"
+                className="flex items-center gap-[0.5rem] text-blue-900   hover:text-purple-400"
               >
                 <FaMapMarkerAlt />
                 <p>Swappy Oy</p>
@@ -151,12 +150,9 @@ function ExperiencePage() {
                 <p>May 2022 - August 2022 (4 months)</p>
               </div>
               <div>
-                <div className="flex items-center">
-                  <IoMdBriefcase />
-                  <p className="ms-[0.5rem] inline">
-                    I diagnosed and repaired iPhones.
-                  </p>
-                </div>
+                <ul className="ps-[2rem] list-disc">
+                  <li>I diagnosed and repaired iPhones.</li>
+                </ul>
               </div>
             </li>
             {/* <li>
@@ -192,7 +188,7 @@ function ExperiencePage() {
                   "https://www.helsinki.fi/en/researchgroups/asteraceae-developmental-biology-and-secondary-metabolism"
                 }
                 target="_blank"
-                className="flex items-center text-blue-900 gap-[0.5rem]"
+                className="flex items-center text-blue-900 gap-[0.5rem] hover:text-purple-400"
               >
                 <div>
                   <FaMapMarkerAlt />
@@ -211,7 +207,8 @@ function ExperiencePage() {
                 <FaRegClock />
                 <p>May 2019 - Dec 2020 (1.5 years)</p>
               </div>
-              <ul className="ps-[3rem] list-disc">
+
+              <ul className="ps-[2rem] list-disc">
                 <li>
                   I gained experience in experiment planning, biological
                   experiments, data analysis, and thesis writing.
