@@ -70,13 +70,7 @@ export default function AboutPage() {
                   Business College Helsinki.
                 </Link>{" "}
                 This excellent program taught me some modern web development
-                technologies and gave me enough projects to sharpen my skills. I
-                am at the end of my studies and I already feel confident that I
-                would be a better web developer.
-              </p>
-              <p>
-                Currently, I am looking for a job or internship place to
-                solidify and enhance my learnings and skills.
+                technologies and gave me enough projects to sharpen my skills.
               </p>
             </div>
           </div>
